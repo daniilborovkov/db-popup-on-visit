@@ -12,4 +12,5 @@
  * @package         Db_Popup_On_Visit
  */
 
-// Your code starts here.
+require plugin_dir_path(__FILE__) . '/modal.php';
+require plugin_dir_path(__FILE__) . '/settings.php';
