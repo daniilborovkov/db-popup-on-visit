@@ -23,6 +23,13 @@ function db_popup_on_visit_render_modal()
 {
     ?>
     <style>
+    /*task theme fixes*/
+    header {
+      display: block !important;
+    }
+   .modal.micromodal-slide.is-open {
+      overflow: hidden;
+    }
       .modal__btn-close {
         margin-left: 20px;
       }
